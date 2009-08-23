@@ -1,0 +1,4 @@
+build/
+dist/
+*.pyc
+django_notices.egg-info/
