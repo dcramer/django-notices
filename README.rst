@@ -1,5 +1,10 @@
+django-notices
+--------------
+
+django-notices is a replacement for the built-in message notification system in Django. It works off of the current session rather than a database store, which means it also works for Anonymous users, and does not require doing database queries each time you need to access it.
+
 Installation
-------------
+============
 
 To install the latest stable version::
 
@@ -12,7 +17,7 @@ To install the latest development version (updated quite often)::
 	sudo python setup.py install
 
 Usage
------
+=====
 
 The easiest way to use django-notices, is simply by adding it to your settings.py::
 
