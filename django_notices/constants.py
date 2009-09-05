@@ -9,7 +9,7 @@ LEVELS = {
     SUCCESS: 'success',
     NOTICE: 'info',
     WARNING: 'warning',
-    ERROR: 'error,'
+    ERROR: 'error',
     INFO: 'info',
     DEBUG: 'debug',
 }
