@@ -2,9 +2,11 @@
 
 from setuptools import setup, find_packages
 
+import django_notices
+
 setup(
     name='django-notices',
-    version='0.1',
+    version=".".join(map(str, django_notices.__version__)),
     author='David Cramer',
     author_email='dcramer@gmail.com',
     url='http://github.com/dcramer/django-notices',
