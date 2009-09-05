@@ -1,5 +1,7 @@
 import os.path
 
+__all__ = ('__version__', '__build__')
+
 __version__ = (0, 2)
 
 def _get_git_revision(path):
