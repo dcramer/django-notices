@@ -3,7 +3,7 @@ INFO = 20
 NOTICE = INFO
 WARNING = 30
 ERROR = 40
-SUCCESS = 10
+SUCCESS = 50
 
 LEVELS = {
     SUCCESS: 'success',
